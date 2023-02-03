@@ -1,9 +1,10 @@
 import sys
+
 from ting_file_management.file_management import txt_importer
 
 
 def process(path_file, instance):
-    path_files = [index["nome_do_arquivo"] for index in instance._data] 
+    path_files = [index["nome_do_arquivo"] for index in instance._data]
 
     if path_file not in path_files:
         file_lines = txt_importer(path_file)
