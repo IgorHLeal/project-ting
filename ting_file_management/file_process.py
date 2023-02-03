@@ -1,4 +1,4 @@
-import sys
+""" import sys """
 
 from ting_file_management.file_management import txt_importer
 
